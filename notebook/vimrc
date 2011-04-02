@@ -1,0 +1,8 @@
+set noexpandtab
+set tabstop=3
+set softtabstop=3
+set shiftwidth=3
+set background="dark"
+set textwidth=0
+set autoindent
+set hlsearch

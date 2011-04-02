@@ -1,0 +1,106 @@
+\documentclass[a4paper,10pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% rubber: module pdftex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Inclusion de paquets
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{color}
+\usepackage[latin1,utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{listingsutf8}
+
+\renewcommand{\O}{\mathcal{O}}
+
+\definecolor{colKeys}{rgb}{0,0,1}
+\definecolor{colIdentifier}{rgb}{0,0,0}
+\definecolor{colComments}{rgb}{0,0.5,1}
+\definecolor{colString}{rgb}{0.6,0.1,0.1}
+
+\lstset{%configuration de listings
+float=hbp,%
+basicstyle=\ttfamily\small, %
+identifierstyle=\color{colIdentifier}, %
+keywordstyle=\color{colKeys}, %
+stringstyle=\color{colString}, %
+commentstyle=\color{colComments}, %
+columns=flexible, %
+tabsize=2, %
+frame=trBL, %
+frameround=tttt, %
+extendedchars=true, %
+showspaces=false, %
+showstringspaces=false, %
+numbers=left, %
+numberstyle=\tiny, %
+breaklines=true, %
+breakautoindent=true, %
+captionpos=b,%
+xrightmargin=-2cm, %
+xleftmargin=-2cm
+}
+
+
+\begin{document}
+\lstset{language=c++}
+\lstset{commentstyle=\textit}
+
+\section{Algorithmes sur les graphes}
+
+\lstinputlisting[inputencoding=utf8/latin1]{code1.cpp}
+\clearpage
+\lstinputlisting[inputencoding=utf8/latin1]{code2.cpp}
+\clearpage
+\lstinputlisting[inputencoding=utf8/latin1]{code3.cpp}
+\clearpage
+\lstinputlisting[inputencoding=utf8/latin1]{code4.cpp}
+\clearpage
+\lstinputlisting[inputencoding=utf8/latin1]{code5.cpp}
+\clearpage
+\lstinputlisting[inputencoding=utf8/latin1]{code6.cpp}
+\clearpage
+\lstinputlisting[inputencoding=utf8/latin1]{code7.cpp}
+\clearpage
+\lstinputlisting[inputencoding=utf8/latin1]{code8.cpp}
+\lstinputlisting[inputencoding=utf8/latin1]{code9.cpp}
+\clearpage
+\lstinputlisting[inputencoding=utf8/latin1]{code10.cpp}
+\clearpage
+
+\section{Arithmétique}
+
+\lstinputlisting[inputencoding=utf8/latin1]{code11.cpp}
+\clearpage
+\lstinputlisting[inputencoding=utf8/latin1]{code12.cpp}
+\clearpage
+
+\section{Géométrie}
+
+\lstinputlisting[inputencoding=utf8/latin1]{code13.cpp}
+\clearpage
+\lstinputlisting[inputencoding=utf8/latin1]{code14.cpp}
+
+\section{Annexe}
+
+\lstinputlisting[inputencoding=utf8/latin1]{code16.cpp}
+\clearpage
+\lstinputlisting[inputencoding=utf8/latin1]{code17.cpp}
+\lstinputlisting[inputencoding=utf8/latin1]{code18.cpp}
+
+\section{Programmation dynamique}
+
+\lstinputlisting[inputencoding=utf8/latin1]{code15.cpp}
+\clearpage
+
+\section{Changer le layout clavier}
+
+\lstset{language=sh}
+\lstinputlisting{keyboard.sh}
+
+\section{Fichier de configuration \texttt{vimrc}}
+
+\lstset{language=tcl}
+\lstinputlisting{vimrc}
+
+\end{document} 
