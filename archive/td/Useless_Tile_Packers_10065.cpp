@@ -47,7 +47,7 @@ void convex_hull(poly & t, poly & r, Compare & order) {
 	for (i = 2; i < t.size(); ++i) {
 		r.push_back(t[i]);
 		// Pop vertices that become internal
-		while (r.size() > 2u && angle(r.end()[-3], r.end()[-2], r.end()[-1])) {
+		while (r.size() > 3u && angle(r.end()[-3], r.end()[-2], r.end()[-1])) {
 			r.end()[-2] = r.back();
 			r.pop_back();
 		}

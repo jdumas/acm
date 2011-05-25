@@ -1,3 +1,7 @@
+/*
+ * http://livearchive.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=43&problem=2451&mosmsg=Submission+received+with+ID+806777
+ */
+
 #include <iostream>
 #include <cstdio>
 #include <stdio.h>
