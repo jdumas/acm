@@ -19,7 +19,7 @@ vector<vector<int> > reachable_rooms; // Associe à une pièce les pièces adjac
 vector<vector<int> > lightable_rooms; // Associe à une pièce celles que l'on peut modifer depuis là
 
 int r, d, s; // Déclaré en global, plus pratique
-int nb_step; // Utiliser pour l'affichage de la réponse
+int nb_step; // Utilisé pour l'affichage de la réponse
 
 void parcours(void) {
 	queue<pair<int, int> > q;

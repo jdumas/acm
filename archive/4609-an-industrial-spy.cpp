@@ -1,6 +1,8 @@
 /*
  * 4609-an-industrial-spy.cpp
  *
+ * Regionals 2009 :: Europe - Northwestern
+ *
  * http://livearchive.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=362&page=show_problem&problem=2610
  */
 

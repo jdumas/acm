@@ -1,7 +1,9 @@
 /*
  * 3821 - Tree Grafting.cpp
  *
- * http://acmicpc-live-archive.uva.es/nuevoportal/data/problem.php?p=3821
+ * Regionals 2007 :: North America - Rocky Mountain
+ *
+ * http://livearchive.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=302&page=show_problem&problem=1822
  */
 
 #include <cstdio>
